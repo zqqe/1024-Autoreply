@@ -10,4 +10,5 @@ config={
     'Forbid':  True,              #True为屏蔽版主发帖,无参数或者False为不屏蔽
     'Input_self':  False,         #设置为True为手动输入验证码,无参数或者False为自动输入
 }
+
 ```
