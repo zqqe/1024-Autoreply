@@ -32,11 +32,11 @@ config={
 
 <h4>使用说明(github Actions方式)</h4>
 
-![Fork位置与Settings位置](https://github.com/0honus0/1024-Autoreply/blob/master/doc/fork%20and%20settings.png)
+![Fork位置与Settings位置](https://github.com/0honus0/1024-Autoreply/blob/Multi_User/doc/fork%20and%20settings.png)
 
-![Secrets位置](https://github.com/0honus0/1024-Autoreply/blob/master/doc/Secrets.png)
+![Secrets位置](https://github.com/0honus0/1024-Autoreply/blob/Multi_User/doc/Secrets.png)
 
-![new secret位置](https://github.com/0honus0/1024-Autoreply/blob/master/doc/new%20Secret.png)
+![new secret位置](https://github.com/0honus0/1024-Autoreply/blob/Multi_User/doc/new%20Secret.png)
 <h4>1.Fork之后，通过settings -> Secrets -> new secret添加下列值</h4>
 
 (必需)
