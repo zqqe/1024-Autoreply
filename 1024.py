@@ -227,14 +227,14 @@ class Autoreply:
             'touid':'',
             'verify':'verify'
         }
-        # post=requests.post(posturl,data=data,headers=headers,cookies=cookies)
-        # post = post.content.decode('utf-8','ignore')
-        # if post.find('發貼完畢點擊')!=-1:
-        #     status='回复成功'
-        #     return status
-        # if post.find('所屬的用戶組')!=-1:
-        #     status='今日已达上限'
-        #     return status
+        post=requests.post(posturl,data=data,headers=headers,cookies=cookies)
+        post = post.content.decode('utf-8','ignore')
+        if post.find('發貼完畢點擊')!=-1:
+            status='回复成功'
+            return status
+        if post.find('所屬的用戶組')!=-1:
+            status='今日已达上限'
+            return status
 
     @staticmethod
     def getnumber(cookies):
