@@ -6,7 +6,6 @@
 
 新增config配置。使用方法为:
 
-
 ```
 config={
     'Forbid':  True,              #True为屏蔽版主发帖,无参数或者False为不屏蔽
