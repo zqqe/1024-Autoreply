@@ -5,7 +5,7 @@ import onetimepass as otp
 from time import sleep
 from urllib import parse
 import os
-from getver2 import GetVerificationCode.apitruecaptcha
+from getver2 import GetVerificationCode
 from multiprocessing import Pool
 from config import config
 
