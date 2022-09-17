@@ -13,3 +13,4 @@ config={
     'Input_self':  False,         #设置为True为手动输入验证码,无参数或者False为自动输入
 }
 ```
+
