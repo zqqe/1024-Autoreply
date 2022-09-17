@@ -5,7 +5,6 @@ import os
 import json
 
 class GetVerificationCode:
-    @staticmethod
     def apitruecaptcha():
         im=Image.open("image.webp")
         im.save('image.png')
@@ -25,7 +24,6 @@ class GetVerificationCode:
         code = res['result']
         return code
 
-    @staticmethod
     def ttshitu():
         im=Image.open('image.webp')
         im.save('image.png')
